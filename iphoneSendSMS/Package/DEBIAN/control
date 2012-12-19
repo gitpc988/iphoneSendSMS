@@ -1,0 +1,17 @@
+Package: com.company.iphoneSendSMS
+Name: iphoneSendSMS
+Version: 1.0-1
+Description: 
+Section: Addons (SBSettings)
+Depends: firmware (>= 5.0), sbsettings
+Conflicts: 
+Replaces: 
+Priority: optional
+Architecture: iphoneos-arm
+Author: lin bo
+dev: 
+Homepage: 
+Depiction: 
+Maintainer: 
+Icon: 
+

@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E00589A165BBE71003DD9D5 /* GraphicsServices.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E00588C165BBE71003DD9D5 /* GraphicsServices.h */; };
+		5E00589B165BBE71003DD9D5 /* GSBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E00588D165BBE71003DD9D5 /* GSBase.h */; };
+		5E00589C165BBE71003DD9D5 /* GSCapability.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E00588E165BBE71003DD9D5 /* GSCapability.h */; };
+		5E00589D165BBE71003DD9D5 /* GSColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E00588F165BBE71003DD9D5 /* GSColor.h */; };
+		5E00589E165BBE71003DD9D5 /* GSEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E005890165BBE71003DD9D5 /* GSEvent.h */; };
+		5E00589F165BBE71003DD9D5 /* GSFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E005891165BBE71003DD9D5 /* GSFont.h */; };
+		5E0058A0165BBE71003DD9D5 /* GSGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E005892165BBE71003DD9D5 /* GSGeometry.h */; };
+		5E0058A1165BBE71003DD9D5 /* GSHeartbeat.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E005893165BBE71003DD9D5 /* GSHeartbeat.h */; };
+		5E0058A2165BBE71003DD9D5 /* GSHiccup.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E005894165BBE71003DD9D5 /* GSHiccup.h */; };
+		5E0058A3165BBE71003DD9D5 /* GSKeyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E005895165BBE71003DD9D5 /* GSKeyboard.h */; };
+		5E0058A4165BBE71003DD9D5 /* GSMainScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E005896165BBE71003DD9D5 /* GSMainScreen.h */; };
+		5E0058A5165BBE71003DD9D5 /* GSMaps.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E005897165BBE71003DD9D5 /* GSMaps.h */; };
+		5E0058A6165BBE71003DD9D5 /* GSStatusBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E005898165BBE71003DD9D5 /* GSStatusBar.h */; };
+		5E0058A7165BBE71003DD9D5 /* GSWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E005899165BBE71003DD9D5 /* GSWindow.h */; };
+		5E0058A9165BBF01003DD9D5 /* UIKit-Structs.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E0058A8165BBF01003DD9D5 /* UIKit-Structs.h */; };
+		5E0058B1165BBF37003DD9D5 /* WAKResponder.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E0058AB165BBF37003DD9D5 /* WAKResponder.h */; };
+		5E0058B2165BBF37003DD9D5 /* WAKView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E0058AC165BBF37003DD9D5 /* WAKView.h */; };
+		5E0058B3165BBF37003DD9D5 /* WebCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E0058AD165BBF37003DD9D5 /* WebCore.h */; };
+		5E0058B4165BBF37003DD9D5 /* WKTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E0058AE165BBF37003DD9D5 /* WKTypes.h */; };
+		5E0058B5165BBF37003DD9D5 /* WKUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E0058AF165BBF37003DD9D5 /* WKUtilities.h */; };
+		5E0058B6165BBF37003DD9D5 /* WKView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E0058B0165BBF37003DD9D5 /* WKView.h */; };
+		5E0058B8165BBF3F003DD9D5 /* WebCoreThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E0058B7165BBF3F003DD9D5 /* WebCoreThread.h */; };
+		5E0058BA165BBF77003DD9D5 /* Availability2.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E0058B9165BBF77003DD9D5 /* Availability2.h */; };
+		5E0058BF165BC260003DD9D5 /* CKMadridEntity.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E0058BC165BC260003DD9D5 /* CKMadridEntity.h */; };
+		5E0058C0165BC260003DD9D5 /* CKMadridMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E0058BD165BC260003DD9D5 /* CKMadridMessage.h */; };
+		5E0058C1165BC260003DD9D5 /* CKMadridService.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E0058BE165BC260003DD9D5 /* CKMadridService.h */; };
+		5E0058C3165BC2CC003DD9D5 /* Availability2.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E0058C2165BC2CC003DD9D5 /* Availability2.h */; };
+		5E10EAA91658AA420071FCED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E10EAA81658AA420071FCED /* Foundation.framework */; };
+		5E10EAAB1658AA420071FCED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E10EAAA1658AA420071FCED /* UIKit.framework */; };
+		5E10EAB41658AA420071FCED /* iphoneSendSMS.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E10EAB31658AA420071FCED /* iphoneSendSMS.m */; };
+		5E198772165E8C5B0018ED00 /* ChatKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E198771165E8C5B0018ED00 /* ChatKit.framework */; };
+		5E5FEAF7167874FD001CF756 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E5FEAF6167874FD001CF756 /* CFNetwork.framework */; };
+		5E5FEAF91678754A001CF756 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E5FEAF81678754A001CF756 /* SystemConfiguration.framework */; };
+		5E5FEAFB16787551001CF756 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E5FEAFA16787551001CF756 /* MobileCoreServices.framework */; };
+		5E5FEC1C167880DD001CF756 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E5FEC1B167880DD001CF756 /* libxml2.dylib */; };
+		5E8D63AF1667B93A00776C1E /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E8D63AE1667B93900776C1E /* libsqlite3.0.dylib */; };
+		5E8D63B21667C98F00776C1E /* RunRoop.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E8D63B01667C98E00776C1E /* RunRoop.h */; };
+		5E8D63B31667C98F00776C1E /* RunRoop.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8D63B11667C98E00776C1E /* RunRoop.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E00588C165BBE71003DD9D5 /* GraphicsServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GraphicsServices.h; path = GraphicsServices/GraphicsServices.h; sourceTree = "<group>"; };
+		5E00588D165BBE71003DD9D5 /* GSBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSBase.h; path = GraphicsServices/GSBase.h; sourceTree = "<group>"; };
+		5E00588E165BBE71003DD9D5 /* GSCapability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSCapability.h; path = GraphicsServices/GSCapability.h; sourceTree = "<group>"; };
+		5E00588F165BBE71003DD9D5 /* GSColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSColor.h; path = GraphicsServices/GSColor.h; sourceTree = "<group>"; };
+		5E005890165BBE71003DD9D5 /* GSEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSEvent.h; path = GraphicsServices/GSEvent.h; sourceTree = "<group>"; };
+		5E005891165BBE71003DD9D5 /* GSFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSFont.h; path = GraphicsServices/GSFont.h; sourceTree = "<group>"; };
+		5E005892165BBE71003DD9D5 /* GSGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSGeometry.h; path = GraphicsServices/GSGeometry.h; sourceTree = "<group>"; };
+		5E005893165BBE71003DD9D5 /* GSHeartbeat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSHeartbeat.h; path = GraphicsServices/GSHeartbeat.h; sourceTree = "<group>"; };
+		5E005894165BBE71003DD9D5 /* GSHiccup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSHiccup.h; path = GraphicsServices/GSHiccup.h; sourceTree = "<group>"; };
+		5E005895165BBE71003DD9D5 /* GSKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSKeyboard.h; path = GraphicsServices/GSKeyboard.h; sourceTree = "<group>"; };
+		5E005896165BBE71003DD9D5 /* GSMainScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSMainScreen.h; path = GraphicsServices/GSMainScreen.h; sourceTree = "<group>"; };
+		5E005897165BBE71003DD9D5 /* GSMaps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSMaps.h; path = GraphicsServices/GSMaps.h; sourceTree = "<group>"; };
+		5E005898165BBE71003DD9D5 /* GSStatusBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSStatusBar.h; path = GraphicsServices/GSStatusBar.h; sourceTree = "<group>"; };
+		5E005899165BBE71003DD9D5 /* GSWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSWindow.h; path = GraphicsServices/GSWindow.h; sourceTree = "<group>"; };
+		5E0058A8165BBF01003DD9D5 /* UIKit-Structs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIKit-Structs.h"; path = "GraphicsServices/UIKit-Structs.h"; sourceTree = "<group>"; };
+		5E0058AB165BBF37003DD9D5 /* WAKResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WAKResponder.h; path = WebCore/WAKResponder.h; sourceTree = "<group>"; };
+		5E0058AC165BBF37003DD9D5 /* WAKView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WAKView.h; path = WebCore/WAKView.h; sourceTree = "<group>"; };
+		5E0058AD165BBF37003DD9D5 /* WebCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebCore.h; path = WebCore/WebCore.h; sourceTree = "<group>"; };
+		5E0058AE165BBF37003DD9D5 /* WKTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WKTypes.h; path = WebCore/WKTypes.h; sourceTree = "<group>"; };
+		5E0058AF165BBF37003DD9D5 /* WKUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WKUtilities.h; path = WebCore/WKUtilities.h; sourceTree = "<group>"; };
+		5E0058B0165BBF37003DD9D5 /* WKView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WKView.h; path = WebCore/WKView.h; sourceTree = "<group>"; };
+		5E0058B7165BBF3F003DD9D5 /* WebCoreThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebCoreThread.h; path = WebCore/wak/WebCoreThread.h; sourceTree = "<group>"; };
+		5E0058B9165BBF77003DD9D5 /* Availability2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Availability2.h; path = WebCore/Availability2.h; sourceTree = "<group>"; };
+		5E0058BC165BC260003DD9D5 /* CKMadridEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CKMadridEntity.h; path = WebCore/CKMadridEntity.h; sourceTree = "<group>"; };
+		5E0058BD165BC260003DD9D5 /* CKMadridMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CKMadridMessage.h; path = WebCore/CKMadridMessage.h; sourceTree = "<group>"; };
+		5E0058BE165BC260003DD9D5 /* CKMadridService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CKMadridService.h; path = WebCore/CKMadridService.h; sourceTree = "<group>"; };
+		5E0058C2165BC2CC003DD9D5 /* Availability2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Availability2.h; path = WebCore/Availability2.h; sourceTree = "<group>"; };
+		5E10EAA51658AA420071FCED /* Toggle.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = Toggle.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E10EAA81658AA420071FCED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5E10EAAA1658AA420071FCED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5E10EAAF1658AA420071FCED /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		5E10EAB01658AA420071FCED /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		5E10EAB21658AA420071FCED /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		5E10EAB31658AA420071FCED /* iphoneSendSMS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iphoneSendSMS.m; sourceTree = "<group>"; };
+		5E10EABA1658AA420071FCED /* 0xdeadfa11 */ = {isa = PBXFileReference; lastKnownFileType = text; name = 0xdeadfa11; path = Package/var/mobile/Library/SBSettings/Toggles/0xdeadfa11; sourceTree = "<group>"; };
+		5E10EABC1658AA420071FCED /* com.company.iphoneSendSMS-ExampleCommand */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = "com.company.iphoneSendSMS-ExampleCommand"; path = "Package/var/mobile/Library/SBSettings/Commands/com.company.iphoneSendSMS-ExampleCommand"; sourceTree = "<group>"; };
+		5E198771165E8C5B0018ED00 /* ChatKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ChatKit.framework; sourceTree = "<group>"; };
+		5E5FEAF6167874FD001CF756 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		5E5FEAF81678754A001CF756 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5E5FEAFA16787551001CF756 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		5E5FEC1B167880DD001CF756 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		5E8D63AE1667B93900776C1E /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		5E8D63B01667C98E00776C1E /* RunRoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunRoop.h; sourceTree = "<group>"; };
+		5E8D63B11667C98E00776C1E /* RunRoop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunRoop.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E10EAA11658AA420071FCED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E5FEC1C167880DD001CF756 /* libxml2.dylib in Frameworks */,
+				5E5FEAFB16787551001CF756 /* MobileCoreServices.framework in Frameworks */,
+				5E5FEAF91678754A001CF756 /* SystemConfiguration.framework in Frameworks */,
+				5E5FEAF7167874FD001CF756 /* CFNetwork.framework in Frameworks */,
+				5E8D63AF1667B93A00776C1E /* libsqlite3.0.dylib in Frameworks */,
+				5E198772165E8C5B0018ED00 /* ChatKit.framework in Frameworks */,
+				5E10EAA91658AA420071FCED /* Foundation.framework in Frameworks */,
+				5E10EAAB1658AA420071FCED /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E00588B165BBE64003DD9D5 /* GS */ = {
+			isa = PBXGroup;
+			children = (
+				5E0058A8165BBF01003DD9D5 /* UIKit-Structs.h */,
+				5E00588C165BBE71003DD9D5 /* GraphicsServices.h */,
+				5E00588D165BBE71003DD9D5 /* GSBase.h */,
+				5E00588E165BBE71003DD9D5 /* GSCapability.h */,
+				5E00588F165BBE71003DD9D5 /* GSColor.h */,
+				5E005890165BBE71003DD9D5 /* GSEvent.h */,
+				5E005891165BBE71003DD9D5 /* GSFont.h */,
+				5E005892165BBE71003DD9D5 /* GSGeometry.h */,
+				5E005893165BBE71003DD9D5 /* GSHeartbeat.h */,
+				5E005894165BBE71003DD9D5 /* GSHiccup.h */,
+				5E005895165BBE71003DD9D5 /* GSKeyboard.h */,
+				5E005896165BBE71003DD9D5 /* GSMainScreen.h */,
+				5E005897165BBE71003DD9D5 /* GSMaps.h */,
+				5E005898165BBE71003DD9D5 /* GSStatusBar.h */,
+				5E005899165BBE71003DD9D5 /* GSWindow.h */,
+			);
+			name = GS;
+			sourceTree = "<group>";
+		};
+		5E0058AA165BBF27003DD9D5 /* WC */ = {
+			isa = PBXGroup;
+			children = (
+				5E0058C2165BC2CC003DD9D5 /* Availability2.h */,
+				5E0058BC165BC260003DD9D5 /* CKMadridEntity.h */,
+				5E0058BD165BC260003DD9D5 /* CKMadridMessage.h */,
+				5E0058BE165BC260003DD9D5 /* CKMadridService.h */,
+				5E0058B9165BBF77003DD9D5 /* Availability2.h */,
+				5E0058B7165BBF3F003DD9D5 /* WebCoreThread.h */,
+				5E0058AB165BBF37003DD9D5 /* WAKResponder.h */,
+				5E0058AC165BBF37003DD9D5 /* WAKView.h */,
+				5E0058AD165BBF37003DD9D5 /* WebCore.h */,
+				5E0058AE165BBF37003DD9D5 /* WKTypes.h */,
+				5E0058AF165BBF37003DD9D5 /* WKUtilities.h */,
+				5E0058B0165BBF37003DD9D5 /* WKView.h */,
+			);
+			name = WC;
+			sourceTree = "<group>";
+		};
+		5E10EA991658AA420071FCED = {
+			isa = PBXGroup;
+			children = (
+				5E5FEC1B167880DD001CF756 /* libxml2.dylib */,
+				5E5FEAFA16787551001CF756 /* MobileCoreServices.framework */,
+				5E5FEAF81678754A001CF756 /* SystemConfiguration.framework */,
+				5E5FEAF6167874FD001CF756 /* CFNetwork.framework */,
+				5E8D63AE1667B93900776C1E /* libsqlite3.0.dylib */,
+				5E198771165E8C5B0018ED00 /* ChatKit.framework */,
+				5E0058AA165BBF27003DD9D5 /* WC */,
+				5E00588B165BBE64003DD9D5 /* GS */,
+				5E10EAAC1658AA420071FCED /* iphoneSendSMS */,
+				5E10EAA71658AA420071FCED /* Frameworks */,
+				5E10EAA61658AA420071FCED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E10EAA61658AA420071FCED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E10EAA51658AA420071FCED /* Toggle.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E10EAA71658AA420071FCED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E10EAA81658AA420071FCED /* Foundation.framework */,
+				5E10EAAA1658AA420071FCED /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E10EAAC1658AA420071FCED /* iphoneSendSMS */ = {
+			isa = PBXGroup;
+			children = (
+				5E10EAB31658AA420071FCED /* iphoneSendSMS.m */,
+				5E10EAAD1658AA420071FCED /* Package */,
+				5E10EAB11658AA420071FCED /* Supporting Files */,
+				5E8D63B01667C98E00776C1E /* RunRoop.h */,
+				5E8D63B11667C98E00776C1E /* RunRoop.m */,
+			);
+			path = iphoneSendSMS;
+			sourceTree = "<group>";
+		};
+		5E10EAAD1658AA420071FCED /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				5E10EAAE1658AA420071FCED /* DEBIAN */,
+				5E10EAB51658AA420071FCED /* var */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		5E10EAAE1658AA420071FCED /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				5E10EAAF1658AA420071FCED /* control.txt */,
+				5E10EAB01658AA420071FCED /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		5E10EAB11658AA420071FCED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E10EAB21658AA420071FCED /* PackageVersion.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E10EAB51658AA420071FCED /* var */ = {
+			isa = PBXGroup;
+			children = (
+				5E10EAB61658AA420071FCED /* mobile */,
+			);
+			name = var;
+			sourceTree = "<group>";
+		};
+		5E10EAB61658AA420071FCED /* mobile */ = {
+			isa = PBXGroup;
+			children = (
+				5E10EAB71658AA420071FCED /* Library */,
+			);
+			name = mobile;
+			sourceTree = "<group>";
+		};
+		5E10EAB71658AA420071FCED /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				5E10EAB81658AA420071FCED /* SBSettings */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		5E10EAB81658AA420071FCED /* SBSettings */ = {
+			isa = PBXGroup;
+			children = (
+				5E10EAB91658AA420071FCED /* Toggles */,
+				5E10EABB1658AA420071FCED /* Commands */,
+			);
+			name = SBSettings;
+			sourceTree = "<group>";
+		};
+		5E10EAB91658AA420071FCED /* Toggles */ = {
+			isa = PBXGroup;
+			children = (
+				5E10EABA1658AA420071FCED /* 0xdeadfa11 */,
+			);
+			name = Toggles;
+			sourceTree = "<group>";
+		};
+		5E10EABB1658AA420071FCED /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				5E10EABC1658AA420071FCED /* com.company.iphoneSendSMS-ExampleCommand */,
+			);
+			name = Commands;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5E10EAA21658AA420071FCED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E00589A165BBE71003DD9D5 /* GraphicsServices.h in Headers */,
+				5E00589B165BBE71003DD9D5 /* GSBase.h in Headers */,
+				5E00589C165BBE71003DD9D5 /* GSCapability.h in Headers */,
+				5E00589D165BBE71003DD9D5 /* GSColor.h in Headers */,
+				5E00589E165BBE71003DD9D5 /* GSEvent.h in Headers */,
+				5E00589F165BBE71003DD9D5 /* GSFont.h in Headers */,
+				5E0058A0165BBE71003DD9D5 /* GSGeometry.h in Headers */,
+				5E0058A1165BBE71003DD9D5 /* GSHeartbeat.h in Headers */,
+				5E0058A2165BBE71003DD9D5 /* GSHiccup.h in Headers */,
+				5E0058A3165BBE71003DD9D5 /* GSKeyboard.h in Headers */,
+				5E0058A4165BBE71003DD9D5 /* GSMainScreen.h in Headers */,
+				5E0058A5165BBE71003DD9D5 /* GSMaps.h in Headers */,
+				5E0058A6165BBE71003DD9D5 /* GSStatusBar.h in Headers */,
+				5E0058A7165BBE71003DD9D5 /* GSWindow.h in Headers */,
+				5E0058A9165BBF01003DD9D5 /* UIKit-Structs.h in Headers */,
+				5E0058B1165BBF37003DD9D5 /* WAKResponder.h in Headers */,
+				5E0058B2165BBF37003DD9D5 /* WAKView.h in Headers */,
+				5E0058B3165BBF37003DD9D5 /* WebCore.h in Headers */,
+				5E0058B4165BBF37003DD9D5 /* WKTypes.h in Headers */,
+				5E0058B5165BBF37003DD9D5 /* WKUtilities.h in Headers */,
+				5E0058B6165BBF37003DD9D5 /* WKView.h in Headers */,
+				5E0058B8165BBF3F003DD9D5 /* WebCoreThread.h in Headers */,
+				5E0058BA165BBF77003DD9D5 /* Availability2.h in Headers */,
+				5E0058BF165BC260003DD9D5 /* CKMadridEntity.h in Headers */,
+				5E0058C0165BC260003DD9D5 /* CKMadridMessage.h in Headers */,
+				5E0058C1165BC260003DD9D5 /* CKMadridService.h in Headers */,
+				5E0058C3165BC2CC003DD9D5 /* Availability2.h in Headers */,
+				5E8D63B21667C98F00776C1E /* RunRoop.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5E10EAA41658AA420071FCED /* iphoneSendSMS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E10EABF1658AA420071FCED /* Build configuration list for PBXNativeTarget "iphoneSendSMS" */;
+			buildPhases = (
+				5E10EAA01658AA420071FCED /* Sources */,
+				5E10EAA11658AA420071FCED /* Frameworks */,
+				5E10EAA21658AA420071FCED /* Headers */,
+				5E10EAA31658AA420071FCED /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iphoneSendSMS;
+			productName = iphoneSendSMS;
+			productReference = 5E10EAA51658AA420071FCED /* Toggle.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E10EA9B1658AA420071FCED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = 5E10EA9E1658AA420071FCED /* Build configuration list for PBXProject "iphoneSendSMS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5E10EA991658AA420071FCED;
+			productRefGroup = 5E10EAA61658AA420071FCED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E10EAA41658AA420071FCED /* iphoneSendSMS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E10EAA31658AA420071FCED /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E10EAA01658AA420071FCED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E10EAB41658AA420071FCED /* iphoneSendSMS.m in Sources */,
+				5E8D63B31667C98F00776C1E /* RunRoop.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5E10EABD1658AA420071FCED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		5E10EABE1658AA420071FCED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		5E10EAC01658AA420071FCED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_NAME = "Toggle.$(EXECUTABLE_EXTENSION)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					/opt/iOSOpenDev/frameworks,
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/include/**",
+					"${SDK_DIR}/usr/include/libxml2",
+				);
+				INSTALL_PATH = /var/mobile/Library/SBSettings/Toggles/iphoneSendSMS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = 192.168.2.124;
+				iOSOpenDevInstallOnAnyBuild = YES;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+		5E10EAC11658AA420071FCED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_NAME = "Toggle.$(EXECUTABLE_EXTENSION)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					/opt/iOSOpenDev/frameworks,
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/include/**",
+					"${SDK_DIR}/usr/include/libxml2",
+				);
+				INSTALL_PATH = /var/mobile/Library/SBSettings/Toggles/iphoneSendSMS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = 192.168.2.124;
+				iOSOpenDevInstallOnAnyBuild = YES;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E10EA9E1658AA420071FCED /* Build configuration list for PBXProject "iphoneSendSMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E10EABD1658AA420071FCED /* Release */,
+				5E10EABE1658AA420071FCED /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E10EABF1658AA420071FCED /* Build configuration list for PBXNativeTarget "iphoneSendSMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E10EAC01658AA420071FCED /* Release */,
+				5E10EAC11658AA420071FCED /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E10EA9B1658AA420071FCED /* Project object */;
+}
